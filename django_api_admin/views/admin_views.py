@@ -48,7 +48,7 @@ class ListView(APIView):
         scheme = 'https://' if request.is_secure() else 'http://'
         for item in data:
             item['detail_url'] = reverse(pattern % info, kwargs={
-                'object_id': int(item['pk'])}, request=request)
+                'object_id': item['pk']}, request=request)
         return Response(data, status=status.HTTP_200_OK)
 
 
