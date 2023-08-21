@@ -94,6 +94,3 @@ $ python manage.py runsever
 
 visit your <a href="http://127.0.0.1:8000/api_admin">localhost</a> to see the browsable api.
 
-## Screenshots 🖼
-
-<img src="screenshots/browsable_api_root.png" alt="browsable_api_root"/>
