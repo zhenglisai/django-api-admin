@@ -9,12 +9,6 @@ Expose django.contrib.admin as a restful service. useful for adding new features
 - [x] Provides data to dynamically create forms on clients from serializers.
 - [x] Extensively tested
 
-## Demo 🚀
-
-You can also test it in this <a href="https://django-api-admin.demon-bixia.repl.co/api_admin/" target="_blank">demo</a> that is hosted on replit. use these credentials to login
-
-* username: admin
-* password: password
 
 ## Requirements 📄
 
@@ -30,7 +24,7 @@ You can also test it in this <a href="https://django-api-admin.demon-bixia.repl.
 <p>Install django-api-admin package.</p>
 
 ```bash
-$ pip install django-api-admin
+$ python3 setup.py install
 ```
 
 <p>In your settings.py make sure you have <i>django.contrib.admin</i> and <i>rest_framework</i> in your installed apps. and add <i>django_api_admin</i>.</p>
